@@ -1,0 +1,12 @@
+#NEWPIR {
+  font-size: large;
+  display: flex;
+}
+
+#NEWPIR.hidden {
+  display: none;
+}
+
+#NEWPIR_TEXT {
+  margin-right: 10px;
+}

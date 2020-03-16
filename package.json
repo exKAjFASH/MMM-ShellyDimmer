@@ -1,0 +1,28 @@
+{
+  "name": "MMM-ShellyDimmer",
+  "version": "2.2.0",
+  "description": "Magic Mirror PIR Module",
+  "main": "MMM-ShellyDimmer.js",
+  "scripts": {
+  },
+  "keywords": [
+    "magic mirror",
+    "module",
+    "sensor",
+    "shelly"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bugsounet/MMM-ShellyDimmer"
+  },
+  "author": "bugsounet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bugsounet/MMM-NewPIR/issues"
+  },
+  "homepage": "https://github.com/bugsounet/MMM-NewPIR"
+}
