@@ -1,11 +1,7 @@
-# MMM-NewPIR
-MMM-NewPIR is a module for the [MagicMirror](https://github.com/MichMich/MagicMirror) project by [Michael Teeuw](https://github.com/MichMich).
+# MMM-ShellyDimmer
+MMM-ShellyDimmer is a module for the [MagicMirror](https://github.com/MichMich/MagicMirror) project by [Michael Teeuw](https://github.com/MichMich).
 
-It uses a PIR sensor attached to your raspberry pi's GPIO pins to check for users. After a configurated time without any user interaction the display will turn off and hide all module for economy mode.
-
-If you don't have PIR sensor, it can also be used for automatic turn on / turn off screen.
-
-**[MMM-AssistantAMk2 v3 Ready](https://github.com/eouia/MMM-AssistantMk2/wiki/Prepared-recipes#with-mmm-newpirjs)**
+It uses a [ShellyDimmer](https://shelly.cloud/wifi-smart-shelly-rgbw-2/) to control brightness of 4 led strips.
 
 ## Screenshoot
 ![](https://raw.githubusercontent.com/bugsounet/MMM-NewPIR/master/screenshoot.png)
@@ -74,7 +70,7 @@ this is the default configuration defined if you don't define any value
 
 ## Developer Notes
 - This module broadcasts a `USER_PRESENCE` notification with the payload beeing `true` or `false` you can use it to pause or disable your module.
-- This module receive `USER_PRESENCE` notification with the payload `true` to force user presence or `false` to force delay to time out. 
+- This module receive `USER_PRESENCE` notification with the payload `true` to force user presence or `false` to force delay to time out.
 
 ## Change Log
 
@@ -86,7 +82,7 @@ this is the default configuration defined if you don't define any value
   * text: text to display beside the counter
 
 ### 2020-19-02
-- add reverseValue Feature : 
+- add reverseValue Feature :
   * Set it to `false` if sensor detect presence on value 1.
   * Set it to `true` if sensor detect presence on value 0
 
@@ -99,4 +95,3 @@ this is the default configuration defined if you don't define any value
 ### 2019-12-11
 - V2 initial commit
 - Rewrite code
-
