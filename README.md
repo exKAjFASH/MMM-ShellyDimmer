@@ -30,7 +30,7 @@ this is the default configuration defined if you don't define any value
 
 ```js
 {
-  module: 'MMM-NewPIR',
+  module: 'MMM-ShellyDimmer',
   position: 'top_left',
   config: {
       ip: "192.168.1.100",
