@@ -34,7 +34,6 @@ module.exports = NodeHelper.create({
 
     process.on('exit', (code) => {
       console.log('[ShellyDimmer] ByeBye !')
-      console.log('[ShellyDimmer] @bugsounet')
     });
     console.log("[ShellyDimmer] Initialize Complete Version:", require('./package.json').version)
   },
@@ -68,8 +67,6 @@ module.exports = NodeHelper.create({
         }, (error, response, body) => {
         log(body)
             if (!error && response.statusCode == 200) {
-                //var result = JSON.parse(body).articles;
-                //this.sendSocketNotification('NATGEO_RESULT', result);
             }
         });
         break

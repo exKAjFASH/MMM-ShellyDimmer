@@ -5,9 +5,9 @@
 
 Module.register("MMM-ShellyDimmer", {
     defaults: {
-      ip: "192.168.88.165",
+      ip: "192.168.1.1",
       delay: 2* 60 * 1000,
-      text: "Shelly Dimmer testing:",
+      text: "Shelly Dimmer",
       counter: true,
       debug: true,
 
@@ -94,7 +94,6 @@ Module.register("MMM-ShellyDimmer", {
       clearInterval(this.interval)
       this.current = 0
       this.interval = setInterval(function () {
-        // http://192.168.88.174/white/0?turn=on&brightness=100
         var tmp = self.current;
         if (tmp == 2) tmp = 3;
         else if (tmp == 3) tmp = 2;
@@ -102,7 +101,6 @@ Module.register("MMM-ShellyDimmer", {
 
         self.current += 1
         if (self.current > 3) {
-          //self.sendSocketNotification("TIMER_EXPIRED")
           clearInterval(self.interval)
         }
       }, 200)
@@ -113,7 +111,6 @@ Module.register("MMM-ShellyDimmer", {
       clearInterval(this.interval)
       this.current = 0
       this.interval = setInterval(function () {
-        // http://192.168.88.174/white/0?turn=on&brightness=100
         var tmp = self.current;
         if (tmp == 2) tmp = 3;
         else if (tmp == 3) tmp = 2;
@@ -121,7 +118,6 @@ Module.register("MMM-ShellyDimmer", {
 
         self.current += 1
         if (self.current > 3) {
-          //self.sendSocketNotification("TIMER_EXPIRED")
           clearInterval(self.interval)
         }
       }, 200)

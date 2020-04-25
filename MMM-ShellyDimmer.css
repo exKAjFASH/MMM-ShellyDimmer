@@ -1,12 +1,12 @@
-#NEWPIR {
+#SHELLYDIMMER {
   font-size: large;
   display: flex;
 }
 
-#NEWPIR.hidden {
+#SHELLYDIMMER.hidden {
   display: none;
 }
 
-#NEWPIR_TEXT {
+#SHELLYDIMMER_TEXT {
   margin-right: 10px;
 }

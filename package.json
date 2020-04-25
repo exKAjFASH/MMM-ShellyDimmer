@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bugsounet/MMM-ShellyDimmer"
+    "url": "https://github.com/exKAjFASH/MMM-ShellyDimmer"
   },
-  "author": "bugsounet",
+  "author": "exKAjFASH",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bugsounet/MMM-NewPIR/issues"
+    "url": "https://github.com/exKAjFASH/MMM-ShellyDimmer/issues"
   },
-  "homepage": "https://github.com/bugsounet/MMM-NewPIR"
+  "homepage": "https://github.com/exKAjFASH/MMM-ShellyDimmer"
 }
