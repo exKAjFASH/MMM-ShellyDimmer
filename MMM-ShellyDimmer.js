@@ -6,10 +6,9 @@
 Module.register("MMM-ShellyDimmer", {
     defaults: {
       ip: "192.168.1.1",
-      delay: 2* 60 * 1000,
       text: "Shelly Dimmer",
       counter: true,
-      debug: true,
+      debug: false,
 
       init_level: 10
     },
